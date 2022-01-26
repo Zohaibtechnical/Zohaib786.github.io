@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+.bg{
+    background-image: url(../Portfolio-Z/abstract-black-luxury-fabric-background-with-copy-space_46250-2302.jpg);
+   background-color: black;
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ab{
+    margin-top: -20px;
+}
+.content{
+    display: inline-flex
+}
+.content .text{
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: -15px;
+    padding-left: 15px;
+    font-weight: 400;
+}
+.content .element{
+    margin-left: -15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+.element li{
+    color: crimson;
+    list-style: none;
+    padding-right: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+    top: 0;
+    white-space: nowrap;
+    animation: slide 12s steps(4) infinite ;
+}
+@keyframes slide {
+    100%{
+       top: -360px;
+    }
+}
+.element li span{
+    position: relative;
+}
+.element li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     background: white;
+     border-left: 2px solid crimson;
+    animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+   40%, 60%
+       {
+       left: calc(100% + 30px);
+    }
+     100%
+     {
+         left: 0;
+     }
+}
+.zb{
+    background-image: linear-gradient(-100deg, white 50%, deeppink 50%);
+    height: 400px;
+}
+/* .contact{
+    background-image: linear-gradient(120deg, rgb(161, 161, 219), rgb(196, 92, 109));
+} */
+
+
+
+
+
+
